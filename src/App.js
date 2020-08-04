@@ -11,7 +11,10 @@ function App() {
 				<Header
 					className="header-color"
 					title={
-						<Link style={{ fontFamily:"Fondamento, cursive", color: "white" }} to="/">
+						<Link
+							style={{ fontFamily: "Fondamento, cursive", color: "white" }}
+							to="/"
+						>
 							My Porfolio
 						</Link>
 					}
@@ -25,6 +28,7 @@ function App() {
 					</Navigation>
 				</Header>
 				<Drawer
+					onClick={() => this.hideToggle()}
 					title={
 						<Link style={{ textDecoration: "none", color: "black" }} to="/">
 							My Porfolio

@@ -113,8 +113,42 @@ function projects() {
 				</CardActions>
 				<CardMenu style={{ color: "#fff" }}></CardMenu>
 			</Card>
-
-		
+			{/* Project4 */}
+			<Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+				<CardTitle
+					className="card-title4"
+					style={{
+						color: "#fff",
+						height: "50px",
+						background: "#283c86",
+					}}
+				>
+					#HTML/ SASS Project
+				</CardTitle>
+				<CardText>
+					<img
+						src={require("./KingJames .png")}
+						alt="profile pic"
+						style={{ height: "200px", width: "310px" }}
+					/>
+					King James HTML/ Sass challenge
+					<p>
+						HTML and Sass challenge recreating website for both mobile and web
+					</p>
+				</CardText>
+				<CardActions border>
+					<Button colored>
+						<a
+							href="https://kjchallenge.netlify.app"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
+							Live demo
+						</a>
+					</Button>
+				</CardActions>
+				<CardMenu style={{ color: "#fff" }}></CardMenu>
+			</Card>
 		</div>
 	);
 }

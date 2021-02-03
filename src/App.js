@@ -13,7 +13,7 @@ function App() {
 					title={
 						<Link
 							style={{ fontFamily: "Fondamento, cursive", color: "white" }}
-							to="/"
+							to=""
 						>
 							My Porfolio
 						</Link>
